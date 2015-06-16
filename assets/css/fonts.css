@@ -1,0 +1,23 @@
+/*Fonts------------------------begin*/
+@font-face {
+	font-family: 'AGLettericaCondensed Bold';
+	src: url('../fonts/AGLettericaCondensed/aglcb__1.eot');
+	src: url('../fonts/AGLettericaCondensed/aglcb__1.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AGLettericaCondensed/aglcb__1.woff') format('woff'),
+	url('../fonts/AGLettericaCondensed/aglcb__1.ttf') format('truetype'),
+	url('../fonts/AGLettericaCondensed/aglcb__1.svg#aglettericacondensedbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sansation Light';
+	src: url('../fonts/Sansation/sansation_light_0.eot');
+	src: url('../fonts/Sansation/sansation_light_0.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Sansation/sansation_light_0.woff') format('woff'),
+	url('../fonts/Sansation/sansation_light_0.ttf') format('truetype'),
+	url('../fonts/Sansation/sansation_light_0.svg#sansation_lightlight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*Fonts--------------------------end*/
