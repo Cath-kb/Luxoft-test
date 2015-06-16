@@ -1,0 +1,108 @@
+/*Base-----------------------begin*/
+body {
+	font-family: Arial, "Nimbus Sans L", Helvetica, sans-serif;
+}
+
+.button-support,
+.main-banner-content .button {
+	font-family: 'Sansation Light', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+}
+
+.main-banner-content h2,
+.section .button-full span,
+.info-item h3 {
+	font-family: 'AGLettericaCondensed Bold', Arial, "Nimbus Sans L", Helvetica, sans-serif;
+}
+
+.cf:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+body {
+	background-color: #f4f4f4;
+	color: #575757;
+	font: 14px/1.2 Arial, "Nimbus Sans L", Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+.list-reset {
+	list-style-type: none;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'],
+input[type='submit'],
+button {
+	padding: 0;
+	font-size: 1em;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'] {
+	border: 1px solid #bbb;
+}
+
+.button {
+	border: none;
+	line-height: 1;
+	position: relative;
+	text-transform: capitalize;
+	outline: none;
+}
+
+.button:before,
+.button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.button-middle {
+	font-size: 24px;
+}
+
+.button-full {
+	width: 100%;
+}
+
+.button-blue {
+	background-color: #1c74b8;
+	color: #fff;
+	text-shadow: 0 -1px 1px #0d5287;
+}
+
+.button-grey {
+	text-transform: none;
+	color: #125588;
+	background: none;
+}
+
+.shadow-bottom:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	height: 5px;
+	background-repeat: repeat-x;
+}
+/*Base-------------------------end*/

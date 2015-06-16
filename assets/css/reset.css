@@ -1,0 +1,53 @@
+/*Reset CSS------------------begin*/
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, tt, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	vertical-align: baseline;
+	font-size: 100%;
+}
+
+a {
+	outline: none;
+	color: #007bbe;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover,
+a:focus {
+	color: #9edbfc;
+}
+
+a:visited {
+	color: #0c2a78;
+}
+
+img {
+	width: 100%;
+	border: none;
+	vertical-align: top;
+}
+
+input, button {
+	vertical-align: middle;
+}
+
+button,
+input[type="submit"],
+input[type="image"] {
+	cursor: pointer;
+}
+
+input:focus {
+	outline: 1px solid #007bbe;
+}
+/*Reset CSS----------------------end*/

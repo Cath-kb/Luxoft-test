@@ -1,0 +1,62 @@
+/*Grid-------------------------begin*/
+html, body {
+	height: 100%;
+}
+
+body {
+	display: table;
+	min-height: 100%;
+	width: 100%;
+}
+
+.row {
+	display: table-row;
+	height: 1px;
+}
+
+.row.expand {
+	height: auto;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+/*grid for rounded corners---*/
+.borders-box {
+	position: relative;
+}
+
+.borders-box [class*='corner-'] {
+	position: absolute;
+}
+
+.borders-box .corner-lt,
+.borders-box .corner-rt {
+	top: 0;
+}
+
+.borders-box .corner-lb,
+.borders-box .corner-rb {
+	bottom: 0;
+}
+
+.borders-box .corner-lt,
+.borders-box .corner-lb,
+.borders-box.gradient-bg:before {
+	left: 0;
+}
+
+.borders-box .corner-rt,
+.borders-box .corner-rb,
+.borders-box.gradient-bg:after {
+	right: 0;
+}
+
+.borders-box.gradient-bg:before,
+.borders-box.gradient-bg:after {
+	content: '';
+	position: absolute;
+}
+/*Grid---------------------------end*/
